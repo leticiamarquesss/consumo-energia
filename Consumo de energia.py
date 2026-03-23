@@ -17,3 +17,7 @@ print("\n--- Resultado ---")
 print(f"Aparelho: {aparelho}")
 print(f"Consumo estimado: {consumo_mensal:.2f} kWh/mês")
 print(f"Custo estimado: R$ {custo:.2f}")
+if consumo_mensal > 100:
+    print("⚠️ Alto consumo de energia!")
+else:
+    print("✅ Consumo dentro do normal")
